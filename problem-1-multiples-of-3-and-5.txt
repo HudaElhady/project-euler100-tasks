@@ -1,0 +1,18 @@
+## Multiples of 3 and 5
+
+function multiplesOf3and5(number) {
+  var i = 1
+    var sum = 0
+    
+while (i < number) {
+    if (i % 3 == 0)  {
+        sum += i
+    } else if (i % 5 == 0)  {
+        sum += i
+    }
+    i += 1
+}
+    return sum
+}
+
+multiplesOf3and5(1000);
